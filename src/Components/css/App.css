@@ -1,0 +1,41 @@
+ body {
+  background-color: #18151c;
+ }
+
+
+.contInfo {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+}
+
+.infoCounter {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+}
+
+.numberCounter {
+  border: solid 5px #fff;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.numberCounter p{
+  color: #fff;
+  font-size: 85px;
+}
+
+.contBtn button{
+    width: 100%;
+}
+.contBtn button:nth-child(1) {
+ margin-bottom: 10px;
+}
+
+.contBtn button:nth-child(2) {
+  margin-bottom: 10px;
+ }
