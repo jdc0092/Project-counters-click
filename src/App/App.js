@@ -19,9 +19,7 @@ function App() {
     setCounter(counter - 1)
   }
 
-  const onClear= () => {
-    setCounter(counter === 0)
-  }
+  const onClear= () => {setCounter(prevCount => prevCount = 0)}
 
 
   return (
